@@ -1,2 +1,0 @@
-#This is a basic login logout project with the help of session.
-#Made using java jsp and servlets.
