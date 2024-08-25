@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AppController</servlet-name>
+  	<display-name>AppController</display-name>
+  	<description></description>
+  	<servlet-class>dev.anurag.AppController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MemberController</servlet-name>
+  	<display-name>MemberController</display-name>
+  	<description></description>
+  	<servlet-class>dev.anurag.MemberController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MemberController1</servlet-name>
+  	<display-name>MemberController1</display-name>
+  	<description></description>
+  	<servlet-class>dev.anurag.MemberController1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AppController</servlet-name>
+  	<url-pattern>/AppController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MemberController</servlet-name>
+  	<url-pattern>/MemberController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MemberController1</servlet-name>
+  	<url-pattern>/MemberController1</url-pattern>
+  </servlet-mapping>
+</web-app>
